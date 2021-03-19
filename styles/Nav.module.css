@@ -1,0 +1,66 @@
+#logo{
+    position: fixed;
+    top: 2rem;
+    left: 4%;
+    z-index: 1;
+}
+
+#logotext{
+    font-size: 1.2rem;
+}
+
+#menu{
+    gap: 20px;
+    font-size: 0.7rem;
+    margin: 0;
+    align-items: center;
+    transition: 1s;
+    display: grid;position: fixed;
+    top: 30px;
+    right: 4%;
+    z-index: 1;
+}
+
+#ham{
+    display: none;
+    position: fixed;
+    top: 2rem;
+    right: 4%;
+    z-index: 1;
+}
+
+.menulist{
+    transition: 1s;
+    color: rgba(245, 245, 245, 0.541);
+}
+
+
+#p:hover, #a:hover, #c:hover{
+    transform: scale(1.2);
+    color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #menu{
+        display: none;
+        width: 100%;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        font-size: 1rem;
+        background-color: black;
+        z-index: 2;
+        align-content: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .menulist{
+        margin-bottom: 40px;
+    }
+
+    #ham{
+        display: block;
+    }
+}
