@@ -4,15 +4,17 @@
     left: 2%;
     z-index: 1;
     z-index: 4;
+    
 }
 
 #logotext{
     font-size: 1.6rem;
+    font-family: 'Redressed', cursive;
 }
 
 #menu{
     gap: 20px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin: 0;
     align-items: center;
     transition: 1s;

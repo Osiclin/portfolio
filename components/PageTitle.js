@@ -4,7 +4,7 @@ export default function PageTitle(props) {
     return(
         <div>
             <div className={styles.title}>
-                <h3>{props.title}</h3>
+                <h2>{props.title}</h2>
                 <hr/>
             </div>
             <div className={styles.subtitle}>

@@ -16,7 +16,10 @@
 
 #h2text{
     font-size: 2rem;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
+    font-family: 'ltc-bodoni-175', serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 #intropara{
