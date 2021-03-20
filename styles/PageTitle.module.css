@@ -19,10 +19,10 @@
 
 @media only screen and (max-width: 600px) {
     .title{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .subtitletext{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
