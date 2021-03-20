@@ -1,6 +1,6 @@
 #logo{
     position: fixed;
-    top: 2rem;
+    top: 1rem;
     left: 2%;
     z-index: 1;
     z-index: 4;
@@ -26,7 +26,7 @@
 #ham{
     display: none;
     position: fixed;
-    top: 2rem;
+    top: 1rem;
     right: 4%;
     z-index: 1;
     font-size: 2rem;
