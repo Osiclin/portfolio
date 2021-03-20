@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import styles from '../styles/Nav.module.css'
+import $ from 'jquery'
+
 
 export default function Nav() {
     const [hamburger, setHamburger] = useState('close')
@@ -29,7 +31,7 @@ export default function Nav() {
     }
     
     
-    useEffect(() =>{
+    useEffect(() => {
         logo.style.display = 'block';
     })
 
@@ -50,11 +52,6 @@ export default function Nav() {
                 <li className={styles.menulist} id={styles.a} onClick={closeMenu}>
                     <Link href="/about">
                         <a>About</a>
-                    </Link>
-                </li>
-                <li className={styles.menulist} id={styles.c} onClick={closeMenu}>
-                    <Link href="/contact">
-                        <a>Contact</a>
                     </Link>
                 </li>
             </ul>

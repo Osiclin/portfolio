@@ -15,7 +15,7 @@
 }
 
 #h2text{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Lora', serif;
 }
 
@@ -26,7 +26,7 @@
 #vid{
     width: 40%;
     position: absolute;
-    top: 50%;
+    top: 10rem;
     left: 60%;
     transform: translate(-50%, -50%);
     filter: opacity(0.1);
@@ -38,7 +38,12 @@
     }
 
     #vid{
+        top: 10rem;
         width: 80%;
         right: 1%;
+    }
+
+    #h2text{
+        font-size: 1.8rem;
     }
 }

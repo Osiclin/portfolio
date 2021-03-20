@@ -12,3 +12,14 @@
 .subtitletext{
     font-size: 0.95rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 1.6rem;
+    }
+
+    .subtitletext{
+        font-size: 1rem;
+    }
+}
