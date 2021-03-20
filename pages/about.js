@@ -15,7 +15,7 @@ export default function About() {
             <main>
                 <div>
                     <div>
-                        <PageTitle title="about" subtitle="explore my project catalogue."/>
+                        <PageTitle title="about" subtitle="know more about me."/>
                     </div>
                     <Aboutdetails />
                 </div>
