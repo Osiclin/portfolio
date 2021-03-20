@@ -2,7 +2,7 @@
     width: 70%;
     display: grid;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 10%;
     justify-content: center;
     background-color: black;
     font-family: 'Cormorant Garamond', serif;
@@ -12,15 +12,14 @@
 
 #skillsnimg{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
+    grid-template-columns: 60% 40%;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 #img{
     margin: 0 auto;
-    margin-top: -70px;
 }
 
 #skills{
@@ -34,26 +33,36 @@
 }
 
 .skillswrapper{
-    margin-top: 180px;
-    margin-left: 250px;
-    display: flex;
+    margin-top: -100px;
 }
 
 
 @media only screen and (max-width: 900px) {
     #skillsnimg{
-        width: 100%;
+        width: 80%;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
-    /* #skillsnimg{
+    #skillsnimg{
         grid-template-columns: 1fr;
-
-    } */
+        width: 100%;
+        margin-top: 20%;
+    }
 
     .skillswrapper{
-        margin-top: 50px;
+        margin-top: unset;
     }
+
+    #hobbylist{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .skillswrapper{
+        margin: 0 auto;
+    }
+
 }

@@ -16,24 +16,27 @@ export default function Aboutdetails() {
                 
             </div>
             <div id={styles.skillsnimg}>
+
+                <div id={styles.img}>
+                    <Image src="/images/profile.png" width="380px" height="430px"/>
+                </div>
                 
-                <div>
+                <div className={styles.skillswrapper}>
                     <div>
-                        <h2 id={styles.skills}>skills</h2>
+                        <h2 id={styles.skills}>hobby</h2>
                         <hr id={styles.skillshr}/>
                     </div>
-                    <ul>
-                        <li><p>- JavaScript</p></li>
-                        <li><p>- ReactJS</p></li>
-                        <li><p>- NextJS</p></li>
-                        <li><p>- JQuery</p></li>
-                        <li><p>- HTML5</p></li>
-                        <li><p>- CSS3</p></li>
-                        <li><p>- Bootstrap</p></li>
+                    <ul id={styles.hobbylist}>
+                        <div>
+                            <li><p>..programing</p></li>
+                            <li><p>..coding</p></li>
+                            <li><p>..football</p></li>
+                        </div>
+                        <div>
+                            <li><p>..movies</p></li>
+                            <li><p>..music</p></li>
+                        </div>
                     </ul>
-                </div>
-                <div id={styles.img}>
-                    <Image src="/images/profile.png" width="450px" height="500px"/>
                 </div>
                 
             </div>

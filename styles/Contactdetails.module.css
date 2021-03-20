@@ -1,9 +1,9 @@
 #contactdetails{
-    width: 100%;
+    width: 1000px;
     display: flex;
     justify-content: center;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     color: white;
-    margin-bottom: 150px;
+    margin: 0 auto 10%;
 }

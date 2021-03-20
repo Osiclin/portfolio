@@ -1,10 +1,12 @@
 #footer{
-    height: 50px;
+    height: 20vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
     font-style: italic;
+    background-image: linear-gradient(to right, black, #353430,
+     #5f5952, #7c7761, #928d7d, #7c7761, #5f5952, #353430, black);
 }
 
 #footertext{
