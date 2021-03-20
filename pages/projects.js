@@ -24,11 +24,12 @@ export default function Projects() {
                     </div>
                     <div id={styling.projectcontainer}>
                         <Projectcard title="- vasiti" details="This is a landing page i made with Next JS & React JS." href="https://vasiti-six.vercel.app" />
-                        <Projectcard title="- unscramble words" details="In this word game questions are asked at random and players are given a clue to help answer each question." href="https://osiclin.github.io/unscramblewords" />
+                        <Projectcard title="- myTodo" details="A Todo List App. Helps you keep track of events. (still in development)" href="https://mytodoapp-osiclin.vercel.app/" />
                         <Projectcard title="- markup" details="MarkUp is a free figma design i stumbled upon on the internet, loved it & decided to develope it." href="https://osiclin.github.io/markup" />
                         <Projectcard title="- oneburner" details="This is a design i stumbled upon on the internet. I redesigned it, developed it, & made it look better ." href="https://osiclin.github.io/oneburner" />
-                        <Projectcard title="- myTodo" details="A Todo List App. Helps you keep track of events. (still in development)" href="https://mytodoapp-osiclin.vercel.app/" />
-                        <Projectcard title="- lyrics" details="Search lyrics of your favourite song & sing along. (still in development)" href="https://osiclin.github.io/lyrics" />
+                        <Projectcard title="- unscramble words" details="In this word game questions are asked at random and players are given a clue to help answer each question." href="https://osiclin.github.io/unscramblewords" />
+                        <Projectcard title="- elpadrino" details="(Mobile Version Only). El Padrino is a mexican food store Web App designed and developed by me." href="https://osiclin.github.io/elpadrino" />
+                        <Projectcard title="- lyrics" details="(Still in development). Search lyrics of your favourite song & sing along." href="https://osiclin.github.io/lyrics" />
                     </div>
                     
                 </div>
