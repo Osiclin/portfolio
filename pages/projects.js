@@ -1,9 +1,6 @@
 import Head from 'next/head'
 import PageTitle from '../components/PageTitle'
 import Projectcard from '../components/Projectcard'
-import Logo from '../components/Logo'
-import Menu from '../components/Menu'
-import Hamburger from '../components/Hamburger'
 import styles from '../styles/Home.module.css'
 import styling from '../styles/Projects.module.css'
 
@@ -15,9 +12,7 @@ export default function Projects() {
             </Head>
 
             <main>
-            <Logo />
-            <Menu />
-            <Hamburger />
+            
                 <div>
                     <div>
                         <PageTitle title="projects" subtitle="explore my project catalogue."/>
