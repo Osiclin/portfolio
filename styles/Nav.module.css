@@ -6,7 +6,7 @@
 }
 
 #logotext{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 #menu{
@@ -27,6 +27,7 @@
     top: 2rem;
     right: 4%;
     z-index: 1;
+    font-size: 1.6rem;
 }
 
 .menulist{

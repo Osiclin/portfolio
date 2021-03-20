@@ -7,3 +7,9 @@
     color: white;
     margin: 0 auto 10%;
 }
+
+@media only screen and (max-width: 600px) {
+    #contactdetails{
+        width: 100%;
+    }
+}

@@ -11,7 +11,7 @@
     position: absolute;
     left: 18%;
     z-index: 1;
-    bottom: 50px;
+    bottom: 150px;
 }
 
 #h2text{
@@ -23,11 +23,12 @@
 }
 
 #vid{
-    width: 400px;
+    width: 40%;
     position: absolute;
-    top: 16%;
-    right: 16%;
-    filter: opacity(0.4);
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    filter: opacity(0.1);
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,7 +37,7 @@
     }
 
     #vid{
-        width: 300px;
+        width: 80%;
         right: 1%;
     }
 }
