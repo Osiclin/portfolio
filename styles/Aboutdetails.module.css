@@ -1,5 +1,5 @@
 #aboutdetails{
-    width: 70%;
+    width: 60%;
     display: grid;
     margin: 0 auto;
     margin-bottom: 10%;
@@ -24,11 +24,13 @@
 
 #skills{
     margin-bottom: 0;
-    font-family: 'Redressed', serif;
+    font-family: sanvito-pro-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #skillshr{
-    width: 10%;
+    width: 30%;
     margin: 0;
 }
 
@@ -39,7 +41,7 @@
 
 @media only screen and (max-width: 900px) {
     #skillsnimg{
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -47,8 +49,8 @@
 @media only screen and (max-width: 600px) {
     #skillsnimg{
         grid-template-columns: 1fr;
-        gap: 3rem;
-        width: 100%;
+        gap: 2rem;
+        width: 90%;
         margin-top: 20%;
     }
 
@@ -68,7 +70,7 @@
     }
 
     #aboutdetails{
-        width: 90%;
+        width: 80%;
     }
 
 }

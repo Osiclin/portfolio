@@ -5,8 +5,9 @@
     justify-content: center;
     align-items: center;
     font-style: italic;
-    background-image: linear-gradient(to right, black, #353430,
-     #5f5952, #7c7761, #7c7761, #5f5952, #353430, black);
+    background-color: rgb(255, 255, 255);
+    /* background-image: linear-gradient(to right, black, #353430,
+     #5f5952, #7c7761, #7c7761, #5f5952, #353430, black); */
 }
 
 #footertext{
