@@ -1,15 +1,32 @@
 #footer{
-    height: 20vh;
+    height: 10%;
     width: 100%;
     display: flex;
+    padding: 2rem 0px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-style: italic;
+    color: rgb(46, 43, 43);
     background-color: rgb(255, 255, 255);
-    /* background-image: linear-gradient(to right, black, #353430,
-     #5f5952, #7c7761, #7c7761, #5f5952, #353430, black); */
 }
 
 #footertext{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    padding-bottom: 0.4rem;
+    font-family: 'ltc-bodoni-175', serif;
+}
+
+#footertitle{
+    font-size: 0.6rem;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#footeremail{
+    font-size: 0.8rem;
+}
+
+#footerhr{
+    margin: 1.4rem 0;
 }
