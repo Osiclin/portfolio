@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
-@import url("https://use.typekit.net/sdi0ybo.css");
+
 
 
 html,
@@ -14,7 +14,7 @@ body {
   position: relative;
   color: whitesmoke;
   background-color: black;
-  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
 

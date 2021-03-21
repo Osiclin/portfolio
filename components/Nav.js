@@ -32,14 +32,14 @@ export default function Nav() {
     
     
     useEffect(() => {
-        logo.style.display = 'block';
-    })
+        $(logo).slideToggle(2000);
+    }, hamburger)
 
     return(
         <>
-            <div id={styles.logo} ref={el => logo = el}>
+            <div id={styles.logo} >
                 <Link href="/">
-                    <a><p id={styles.logotext}>osita.</p></a>
+                    <a><p id={styles.logotext} ref={el => logo = el}>osita.</p></a>
                 </Link>
             </div>
 

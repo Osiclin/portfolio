@@ -1,6 +1,5 @@
 #aboutdetails{
     width: 60%;
-    /* text-align: center; */
     display: grid;
     margin: 0 auto;
     margin-bottom: 10%;
@@ -13,6 +12,7 @@
 
 #abouttext{
     text-align: center;
+    font-weight: 500;
 }
 
 #skillsnimg{
@@ -29,13 +29,13 @@
 
 #skills{
     margin-bottom: 0;
-    font-family: sanvito-pro-display, sans-serif;
+    font-family: "Cormorant Garamond";
     font-weight: 700;
     font-style: normal;
 }
 
 #skillshr{
-    width: 30%;
+    width: 24%;
     margin: 0;
 }
 

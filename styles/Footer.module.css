@@ -30,3 +30,11 @@
 #footerhr{
     margin: 1.4rem 0;
 }
+
+#iconwrapper{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0;
+}

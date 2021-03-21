@@ -19,7 +19,6 @@
 
 #h2text{
     font-size: calc((3.1 - 1) * 1vw + 1rem);
-    /* font-size: 2rem; */
     font-family: 'ltc-bodoni-175', serif;
     font-weight: 500;
     font-style: normal;
@@ -45,23 +44,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-    /* #innerwrapper{
-        padding: 0 9%;
-    } */
-
     #vid{
         width: 70%;
         right: 1%;
     }
-
-    /* #h2text{
-        font-size: 1.6rem;
-    } */
 }
-
-/* @media only screen and (max-width: 500px) {
-    #innerwrapper{
-        width: 100%;
-        padding: 0 2%;
-    }
-} */
