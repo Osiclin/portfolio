@@ -33,7 +33,7 @@ export default function Nav() {
     
     useEffect(() => {
         $(logo).slideToggle(2000);
-    }, hamburger)
+    }, [])
 
     return(
         <>

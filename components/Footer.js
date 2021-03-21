@@ -9,11 +9,11 @@ export default function Footer() {
             <p id={styles.footeremail}><a href="mailto:osiclin@yahoo.com"><u>osiclin@yahoo.com</u></a></p>
             <ul id={styles.iconwrapper}>
                 
-                <li><i class="fab fa-github-square"></i></li>
-                <li><i class="fab fa-twitter-square"></i></li>
-                <li><i class="fab fa-facebook-square"></i></li>
-                <li><i class="fab fa-instagram-square"></i></li>
-                <li><i class="fas fa-phone-square"></i></li>
+                <li><i className="fab fa-github-square"></i></li>
+                <li><i className="fab fa-twitter-square"></i></li>
+                <li><i className="fab fa-facebook-square"></i></li>
+                <li><i className="fab fa-instagram-square"></i></li>
+                <li><i className="fas fa-phone-square"></i></li>
                 
             </ul>
         </div>
