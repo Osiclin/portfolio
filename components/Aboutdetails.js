@@ -5,7 +5,7 @@ export default function Aboutdetails() {
     return(
         <div id={styles.aboutdetails}>
             <div>
-                <p>
+                <p id={styles.abouttext}>
                     Hi, i'm Osita Ezeigbo, a Web Developer/FrontEnd Developer based in Lagos, Nigeria.
                     I am a tech enthusiast skilled with various technology tools. I love building Front-end websites 
                     and Progressive Web Apps. I am a fast learner and I get things done even if it means me

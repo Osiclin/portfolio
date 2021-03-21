@@ -1,5 +1,6 @@
 #aboutdetails{
     width: 60%;
+    /* text-align: center; */
     display: grid;
     margin: 0 auto;
     margin-bottom: 10%;
@@ -8,6 +9,10 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 1rem;
     font-weight: 500;
+}
+
+#abouttext{
+    text-align: center;
 }
 
 #skillsnimg{
