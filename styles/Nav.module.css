@@ -45,7 +45,7 @@
 }
 
 
-#p:hover, #a:hover, #c:hover{
+#p:hover, #a:hover{
     transform: scale(1.2);
     color: whitesmoke;
 }
@@ -64,6 +64,7 @@
         right: 0;
         height: 100vh;
         font-size: 1rem;
+        position: absolute;
         background-color: black;
         z-index: 2;
         align-content: center;
@@ -73,14 +74,13 @@
     }
 
     .menulist{
-        position: relative;
+        position: absolute;
         right: 0;
         font-family: 'Cormorant Garamond', serif;
     }
 
-    #p, #c, #a{
+    #p, #a{
         width: 20%;
-        top: 40%;
         left: 50%;
         font-size: 1.2rem;
         transform: translate(-50%, -50%);
@@ -89,12 +89,16 @@
         color: white;
     }
 
-    #p:hover, #a:hover, #c:hover{
-        transform: unset;
+    #p{
+        top: 40%;
     }
 
-    #c{
-        margin-bottom: 0;
+    #a{
+        top: 60%;
+    }
+
+    #p:hover, #a:hover{
+        transform: unset;
     }
     
     #ham{

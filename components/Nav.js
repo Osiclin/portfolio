@@ -14,7 +14,7 @@ export default function Nav() {
 
     const openMenu = () => {
         if (window.innerWidth <= 600) {
-            $(menu).slideDown()
+            menu.style.display = 'block'
             ham.style.color = 'rgba(245, 245, 245, 0.541)';
             logo.style.color = 'rgba(245, 245, 245, 0.541)';
             setHamburger('open')
@@ -23,7 +23,7 @@ export default function Nav() {
 
     const closeMenu = () => {
         if (window.innerWidth <= 600) {
-            $(menu).slideUp(1000)
+            menu.style.display = 'none';
             ham.style.color = 'white';
             logo.style.color = 'white';
             setHamburger('close')
