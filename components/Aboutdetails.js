@@ -18,27 +18,52 @@ export default function Aboutdetails() {
             <div id={styles.skillsnimg}>
 
                 <div id={styles.img}>
-                    <Image src="/images/profile.png" width="380px" height="430px" preload="true" />
+                    <Image src="/images/profile.png" width="380px" height="430px" preload="true" alt="author picture" />
                 </div>
                 
                 <div className={styles.skillswrapper}>
                     <div>
-                        <h2 id={styles.skills}>hobby</h2>
-                        <hr id={styles.skillshr}/>
+                        <div>
+                            <h2 id={styles.skills}>skills</h2>
+                            <hr id={styles.skillshr}/>
+                        </div>
+                        <ul id={styles.hobbylist}>
+                            <div>
+                                <li><p>..Javascript</p></li>
+                                <li><p>..NextJs</p></li>
+                                <li><p>..ReactJs</p></li>
+                                <li><p>..HTML5</p></li>
+                            </div>
+                            <div>
+                                
+                                <li><p>..CSSS3</p></li>
+                                <li><p>..API</p></li>
+                                <li><p>..Bootstrap</p></li>
+                                <li><p>..SASS</p></li>
+                            </div>
+                        </ul>
                     </div>
-                    <ul id={styles.hobbylist}>
-                        <div>
-                            <li><p>..programing</p></li>
-                            <li><p>..coding</p></li>
-                            <li><p>..football</p></li>
-                        </div>
-                        <div>
-                            <li><p>..movies</p></li>
-                            <li><p>..music</p></li>
-                        </div>
-                    </ul>
+                    
                 </div>
-                
+                {/* <div className={styles.skillswrapper}>
+                    <div>
+                        <div>
+                            <h2 id={styles.skills}>hobby</h2>
+                            <hr id={styles.skillshr}/>
+                        </div>
+                        <ul id={styles.hobbylist}>
+                            <div>
+                                <li><p>..programing</p></li>
+                                <li><p>..coding</p></li>
+                                <li><p>..football</p></li>
+                            </div>
+                            <div>
+                                <li><p>..movies</p></li>
+                                <li><p>..music</p></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>    */}
             </div>
         </div>
     )

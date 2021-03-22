@@ -29,11 +29,6 @@ export default function Nav() {
             setHamburger('close')
         }
     }
-    
-    
-    useEffect(() => {
-        $(logo).slideToggle(2000);
-    }, [])
 
     return(
         <>
