@@ -14,7 +14,7 @@ export default function Nav() {
 
     const openMenu = () => {
         if (window.innerWidth <= 600) {
-            menu.style.display = 'block'
+            menu.style.display = 'block';
             ham.style.color = 'rgba(245, 245, 245, 0.541)';
             logo.style.color = 'rgba(245, 245, 245, 0.541)';
             setHamburger('open')

@@ -46,7 +46,6 @@
 
 
 #p:hover, #a:hover{
-    transform: scale(1.2);
     color: whitesmoke;
 }
 
@@ -64,7 +63,6 @@
         right: 0;
         height: 100vh;
         font-size: 1rem;
-        position: absolute;
         background-color: black;
         z-index: 2;
         align-content: center;
@@ -95,10 +93,6 @@
 
     #a{
         top: 60%;
-    }
-
-    #p:hover, #a:hover{
-        transform: unset;
     }
     
     #ham{
