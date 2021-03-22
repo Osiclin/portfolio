@@ -9,6 +9,7 @@
 
 .cardimg{
     transition: 1s;
+    border-radius: 10px;
     filter: brightness(0.5);
 }
 
@@ -16,7 +17,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 9rem;
 }
 
 .cardimg:hover, .cardimg:active{
@@ -25,7 +25,6 @@
 }
 
 .projectdetails{
-    height: 9rem;
     position: relative;
 }
 
@@ -44,21 +43,6 @@
     color: white;
     padding: 0px 0px 0.4rem;
     font-family: 'Cormorant Garamond', serif;
+    text-align: center;
 }
 
-.button{
-    width: 3rem;
-    padding: 0.3rem;
-    display: flex;
-    justify-content: center;
-    border: 0;
-    outline: 0;
-    color: white;
-    font-size: 0.6rem;
-    font-family: 'Cormorant Garamond';
-    background-color: #928d7d;
-    cursor: pointer;
-    position: absolute;
-    bottom: 1rem;
-    right: 0.2rem;
-}
