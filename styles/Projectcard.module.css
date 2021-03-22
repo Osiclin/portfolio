@@ -16,7 +16,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 250px;
+    height: 9rem;
 }
 
 .cardimg:hover, .cardimg:active{
