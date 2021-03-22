@@ -3,16 +3,17 @@ import Image from 'next/image'
 
 export default function Projectcard(props) {
     return( 
-        <a href={props.href}>
+        <div>
             <div className={styles.projectcard}>
-                <div>
-                <Image src={props.src} className={styles.cardimg} width={400} height={300} />
+                <div className={styles.imgwrapper}>
+                <Image src={props.src} className={styles.cardimg} width={props.width} height={300} preload="true" />
                 </div>
-
-                <h3 className={styles.title}>{props.title}</h3>
-                <p className={styles.para}>{props.details}</p>
-                <input className={styles.button} type="button" value="Visit" />
+                <div className={styles.projectdetails}>
+                    <h3 className={styles.title}>{props.title}</h3>
+                    <p className={styles.para}>{props.details}</p>
+                    <a href={props.href}><input className={styles.button} type="button" value="Visit" /></a>
+                </div>
             </div>
-        </a>
+        </div>
     )
 }

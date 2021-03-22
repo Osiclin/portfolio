@@ -1,4 +1,5 @@
 .projectcard{
+    width: 100%;
     border: 0px;
     display: flex;
     flex-direction: column;
@@ -8,25 +9,40 @@
 
 .cardimg{
     transition: 1s;
+    filter: brightness(0.5);
 }
 
-.cardimg:hover{
+.imgwrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.cardimg:hover, .cardimg:active{
     transform: scale(1.04);
+    filter: brightness(1);
+}
+
+.projectdetails{
+    height: 9rem;
+    position: relative;
 }
 
 .title{
     font-size: 1rem;
     letter-spacing: 0.04rem;
+    margin-top: 10px;
     margin-bottom: 20px;
+    text-align: center;
     font-family: 'Lora', serif;
-    padding: 0px 0.4rem;
 }
 
 .para{
     font-size: 0.9rem;
     font-weight: 500;
     color: white;
-    padding: 0px 0.4rem 0.4rem;
+    padding: 0px 0px 0.4rem;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -35,11 +51,14 @@
     padding: 0.3rem;
     display: flex;
     justify-content: center;
-    align-self: flex-end;
     border: 0;
     outline: 0;
     color: white;
     font-size: 0.6rem;
     font-family: 'Cormorant Garamond';
     background-color: #928d7d;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.2rem;
 }
