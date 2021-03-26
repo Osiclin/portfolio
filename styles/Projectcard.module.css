@@ -20,7 +20,7 @@
 }
 
 .cardimg:hover, .cardimg:active{
-    transform: scale(1.04);
+    transform: scale(1.01);
     filter: brightness(1);
 }
 
@@ -41,7 +41,7 @@
     font-size: 0.9rem;
     font-weight: 500;
     color: white;
-    padding: 0px 0px 0.4rem;
+    padding: 0px 4% 0.4rem;
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
 }

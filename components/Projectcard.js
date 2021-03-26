@@ -1,6 +1,7 @@
 import styles from '../styles/Projectcard.module.css'
 import Image from 'next/image'
 
+
 export default function Projectcard(props) {
 
     return( 
