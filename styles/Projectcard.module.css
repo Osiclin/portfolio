@@ -1,15 +1,20 @@
 .projectcard{
-    width: 100%;
+    width: 80%;
     border: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .cardimg{
+    width: 100%;
+    object-fit: fill;
     transition: 1s;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     filter: brightness(0.5);
 }
 
@@ -26,15 +31,17 @@
 
 .projectdetails{
     position: relative;
+    
 }
 
 .title{
     font-size: 1rem;
     letter-spacing: 0.04rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.2rem;
     font-family: 'Lora', serif;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .para{
@@ -43,6 +50,5 @@
     color: white;
     padding: 0px 4% 0.4rem;
     font-family: 'Cormorant Garamond', serif;
-    text-align: center;
 }
 

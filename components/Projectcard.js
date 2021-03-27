@@ -8,12 +8,12 @@ export default function Projectcard(props) {
         <div>
             <div className={styles.projectcard}>
                 <div className={styles.imgwrapper}>
-                <a href={props.href}>
                     <Image src={props.src} className={styles.cardimg} width={props.width} height={300} preload="true" alt="project" />
-                </a>
                 </div>
                 <div className={styles.projectdetails}>
-                    <h3 className={styles.title}>{props.title}</h3>
+                    <a href={props.href}>
+                        <h3 className={styles.title}>{props.title}</h3>
+                    </a>
                     <p className={styles.para}>{props.details}</p>
                 </div>
             </div>
