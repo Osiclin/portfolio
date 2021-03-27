@@ -52,3 +52,15 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
+
+@media screen and (max-width: 1000px) {
+    .projectcard{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .projectcard{
+        width: 100%;
+    }
+}
