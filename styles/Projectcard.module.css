@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     transition: 1s;
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(20, 20, 20);
     border-radius: 10px;
     margin: 0 auto;
 }
@@ -37,7 +37,7 @@
 .title{
     font-size: 1rem;
     letter-spacing: 0.04rem;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0.2rem;
     font-family: 'Lora', serif;
     padding-left: 4%;
