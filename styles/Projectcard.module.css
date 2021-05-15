@@ -1,18 +1,17 @@
 .projectcard{
-    width: 80%;
+    width: 100%;
     border: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
-    background-color: rgb(20, 20, 20);
+    background-image: linear-gradient(transparent 30%, rgba(20, 20, 20, 0.699));
     border-radius: 10px;
     margin: 0 auto;
 }
 
 .cardimg{
-    width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     transition: 1s;
     border-radius: 10px 10px 0px 0px;
     filter: brightness(0.5);
@@ -35,14 +34,14 @@
 }
 
 .title{
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: 0.04rem;
     margin-bottom: 0.2rem;
     font-family: 'Lora', serif;
 }
 
 .para{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
     color: white;
     font-family: 'Cormorant Garamond', serif;

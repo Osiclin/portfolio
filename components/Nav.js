@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import styles from '../styles/Nav.module.css'
-import $ from 'jquery'
-
 
 export default function Nav() {
     const [hamburger, setHamburger] = useState('close')
@@ -10,7 +8,6 @@ export default function Nav() {
     let menu = useRef(null);
     let logo = useRef(null);
     let ham = useRef(null);
-
 
     const openMenu = () => {
         if (window.innerWidth <= 600) {
