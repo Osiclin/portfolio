@@ -19,8 +19,6 @@
 
 .imgwrapper{
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .cardimg:hover, .cardimg:active{
@@ -48,14 +46,19 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
+    .para{
+        font-size: .9rem;
+    }
+
+    .projectcard{
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .projectcard{
         width: 90%;
     }
 }
 
-@media screen and (max-width: 900px) {
-    .projectcard{
-        width: 100%;
-    }
-}

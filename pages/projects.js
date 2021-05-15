@@ -18,7 +18,7 @@ export default function Projects() {
                         <PageTitle title="projects" subtitle="explore my project catalogue."/>
                     </div>
                     <div id={styling.projectcontainer}>
-                        <Projectcard src='/images/newsapp.png' title="news-app" details="This is a news app that gives you latest news around the world." href="https://vasiti-six.vercel.app" />
+                        <Projectcard src='/images/newsapp.png' title="news-app" details="This is a news app that gives you latest news around the world." href="https://ositaezeigbo-newsapp.vercel.app" />
                         <Projectcard src='/images/vasiti.png' title="vasiti" details="This is a landing page i made with Next JS & React JS." href="https://vasiti-six.vercel.app" />
                         <Projectcard src='/images/mytodos.png' title="myTodo" details="A Todo List App. Helps you keep track of events." href="https://mytodoapp-osiclin.vercel.app/" />
                         <Projectcard src='/images/markup.png' title="markup" details="MarkUp is a free figma design i stumbled upon on the internet, loved it & decided to develope it." href="https://osiclin.github.io/markup" />

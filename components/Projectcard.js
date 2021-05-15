@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Projectcard(props) {
 
     return( 
-        <div>
+        
             <div className={styles.projectcard}>
                 <div className={styles.imgwrapper}>
                     <a href={props.href}>
@@ -17,6 +17,6 @@ export default function Projectcard(props) {
                     <p className={styles.para}>{props.details}</p>
                 </div>
             </div>
-        </div>
+        
     )
 }
