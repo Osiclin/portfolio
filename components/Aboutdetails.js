@@ -18,7 +18,7 @@ export default function Aboutdetails() {
             <div id={styles.skillsnimg}>
 
                 <div id={styles.img}>
-                    <Image src="/images/profile.png" width="380px" height="430px" preload="true" alt="author picture" />
+                    <Image src="/images/profile.png" width={300} height={340} loading="eager" alt="author picture" />
                 </div>
                 
                 <div className={styles.skillswrapper}>
