@@ -4,7 +4,7 @@ export default function Footer() {
     return(
         <div id={styles.footer}>
             <p id={styles.footertext}><b>OSITA EZEIGBO</b></p>
-            <p id={styles.footertitle}>Web Developer / Front-End Developer</p>
+            <p id={styles.footertitle}>Frontend Developer</p>
             <hr id={styles.footerhr}/>
             <p id={styles.footeremail}><a href="mailto:osiclin@yahoo.com"><u>osiclin@yahoo.com</u></a></p>
             <ul id={styles.iconwrapper}>
