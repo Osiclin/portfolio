@@ -43,13 +43,6 @@
 
 
 @media only screen and (max-width: 600px) {
-    /* #hobbylist{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-
-    } */
-
     #aboutdetails{
         width: 80%;
     }
