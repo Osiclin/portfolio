@@ -1,18 +1,13 @@
 .projectcard{
-    width: 100%;
+    width: 400px;
     border: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-image: linear-gradient(transparent 30%, rgba(20, 20, 20, 0.699));
-    border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 .cardimg{
     object-fit: cover;
-    transition: 1s;
-    border-radius: 10px 10px 0px 0px;
     filter: brightness(0.5);
 }
 
@@ -27,13 +22,13 @@
 
 .projectdetails{
     position: relative;
-    padding: 20px;
+    padding: 10px;
 }
 
 .title{
     font-size: .9rem;
     letter-spacing: 0.04rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
 }
 

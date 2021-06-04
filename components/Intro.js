@@ -19,14 +19,11 @@ export default function Intro() {
             <div id={styles.innerwrapper} ref={el => para = el}>
                 <div>
                 <p id={styles.intropara}>~ Hello there! &#128075;</p>
-                <h2 id={styles.h2text}>I'm Osita Ezeigbo.</h2>
-                <p className={styles.aboutdetails}>I am a <span className={styles.aboutdetailsfocus}>software engineer</span> with a focus on the <span className={styles.aboutdetailsfocus}>frontend development</span>.
+                <h2 id={styles.h2text}>I'm Osita Ezeigbo.<br/>Software Engineer</h2>
+                <p className={styles.aboutdetails}>I am focused on the <span className={styles.aboutdetailsfocus}>frontend development</span>.
                 I specialize in building websites and web applications.</p>
                 </div>
             </div>
-            <video id={styles.vid} autoPlay muted>
-                <source src="/videos/bgvid.mp4" type="video/mp4" />
-            </video>
         </div>
     )
 }
