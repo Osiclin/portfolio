@@ -31,7 +31,7 @@ export default function Nav() {
         <>
             <div id={styles.logo} >
                 <Link href="/">
-                    <a><p id={styles.logotext} ref={el => logo = el}>osita</p></a>
+                    <a><p id={styles.logotext} ref={el => logo = el}>osita.</p></a>
                 </Link>
             </div>
 

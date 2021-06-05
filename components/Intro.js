@@ -6,13 +6,10 @@ import $ from 'jquery'
 export default function Intro() {
     let para = useRef(null)
     
-
     useEffect(() => {
-        $(para).slideDown(2000);
+        $(para).slideDown(1500);
         para.style.display = "flex";
-        
     })
-
 
     return(
         <div id={styles.introcontainer}>

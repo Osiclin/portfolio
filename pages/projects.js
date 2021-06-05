@@ -8,7 +8,7 @@ export default function Projects() {
     return(
         <div className={styles.container}>
             <Head>
-                <title>Osita Ezeigbo | My Portfolio</title>
+                <title>Osita Ezeigbo | Projects</title>
             </Head>
 
             <main>

@@ -1,7 +1,8 @@
 .title{
     text-align: center;
-    font-family: "Cormorant Garamond";
+    font-family: 'Redressed', cursive;
     margin-top: 10rem;
+    letter-spacing: .5px;
 }
 
 .subtitle{
