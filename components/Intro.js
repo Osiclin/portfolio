@@ -7,7 +7,7 @@ export default function Intro() {
     let para = useRef(null)
     
     useEffect(() => {
-        $(para).slideDown(1500);
+        $(para).fadeIn(2000);
         para.style.display = "block";
     })
 
