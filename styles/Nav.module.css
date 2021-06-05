@@ -41,11 +41,9 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-
 #p:hover, #a:hover{
     color: whitesmoke;
 }
-
 
 @media screen and (max-width: 600px) {
     #logo{

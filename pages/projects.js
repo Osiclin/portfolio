@@ -12,7 +12,6 @@ export default function Projects() {
             </Head>
 
             <main>
-            
                 <div>
                     <div>
                         <PageTitle title="projects" subtitle="explore my project catalogue."/>
@@ -27,7 +26,6 @@ export default function Projects() {
                         <Projectcard src='/images/unscramble.png' title="Unscramble words" details="In this word game questions are asked at random and players are given a clue to help answer each question." href="https://osiclin.github.io/unscramblewords" />
                         <Projectcard src='/images/epm.jpg' title="Elpadrino" details="(Mobile Version Only). El Padrino is a mexican food store Web App designed and developed by me." href="https://osiclin.github.io/elpadrino" />
                     </div>
-                    
                 </div>
             </main>
         </div>

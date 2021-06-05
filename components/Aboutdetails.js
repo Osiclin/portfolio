@@ -13,14 +13,11 @@ export default function Aboutdetails() {
                     and improving systems by having tech tools and resources to work 
                     coherently.
                 </p>
-                
             </div>
             <div id={styles.skillsnimg}>
-
                 <div id={styles.img}>
-                    <Image src="/images/bg.jpg" width={5494} height={3666} loading="eager" alt="author picture" />
+                    <Image src="/images/bg.jpg" width={5494} height={3666} loading="eager" alt="osita ezeigbo" />
                 </div>
-                
                 <div className={styles.skillswrapper}>
                     <div>
                         <div>
@@ -44,27 +41,7 @@ export default function Aboutdetails() {
                             </div>
                         </ul>
                     </div>
-                    
                 </div>
-                {/* <div className={styles.skillswrapper}>
-                    <div>
-                        <div>
-                            <h2 id={styles.skills}>hobby</h2>
-                            <hr id={styles.skillshr}/>
-                        </div>
-                        <ul id={styles.hobbylist}>
-                            <div>
-                                <li><p>..programing</p></li>
-                                <li><p>..coding</p></li>
-                                <li><p>..football</p></li>
-                            </div>
-                            <div>
-                                <li><p>..movies</p></li>
-                                <li><p>..music</p></li>
-                            </div>
-                        </ul>
-                    </div>
-                </div>    */}
             </div>
         </div>
     )

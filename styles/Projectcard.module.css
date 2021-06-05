@@ -40,7 +40,6 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-
 @media screen and (max-width: 700px) {
     .projectcard{
         width: 74%;
@@ -52,4 +51,3 @@
         width: 90%;
     }
 }
-

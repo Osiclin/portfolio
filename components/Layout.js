@@ -3,7 +3,6 @@ import Footer from "./Footer";
 import styles from '../styles/Layout.module.css'
 import Nav from "./Nav";
 
-
 export default function Layout({ children }) {
     return(
         <div id={styles.layout}>
@@ -16,9 +15,9 @@ export default function Layout({ children }) {
                 <script src="https://kit.fontawesome.com/9baa8c6e06.js" crossorigin="anonymous"></script>
             </Head>
             <Nav />
-            
-            { children }
 
+                { children }
+                
             <Footer />
         </div>
     )

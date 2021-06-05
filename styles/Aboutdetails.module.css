@@ -37,13 +37,11 @@
     letter-spacing: .5px;
 }
 
-
 @media only screen and (max-width: 900px) {
     #skillsnimg{
         width: 100%;
     }
 }
-
 
 @media only screen and (max-width: 600px) {
     #aboutdetails{
