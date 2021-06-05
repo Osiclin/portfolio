@@ -16,7 +16,6 @@ export default function Layout({ children }) {
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content="Osita Ezeigbo" />
                 <link rel="manifest" href="/manifest.json" />
-                <script src="https://kit.fontawesome.com/9baa8c6e06.js" crossorigin="anonymous"></script>
             </Head>
             <Nav />
 
