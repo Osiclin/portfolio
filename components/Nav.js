@@ -44,7 +44,7 @@ export default function Nav() {
             </ul>
 
             <div>
-               {hamburger == 'close' ? <p id={styles.ham} onClick={openMenu}>=</p> : <p id={styles.ham} onClick={closeMenu}>x</p>}
+               {hamburger == 'close' ? <p id={styles.ham} onClick={openMenu}>=</p> : <p id={styles.ham} onClick={closeMenu}>=</p>}
             </div>
         </>
     )
