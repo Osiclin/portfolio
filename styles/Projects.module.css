@@ -1,15 +1,9 @@
 #projectcontainer{
-    width: 90%;
+    width: 100%;
     margin: 0 auto 5rem;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     justify-content: center;
     row-gap: 2rem;
-}
-
-@media screen and (max-width: 985px) {
-    #projectcontainer{
-        width: 100%;
-    }
 }

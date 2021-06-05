@@ -6,7 +6,7 @@ export default function Projectcard(props) {
         <div className={styles.projectcard}>
             <div className={styles.imgwrapper}>
                 <a href={props.href}>
-                    <Image src={props.src} className={styles.cardimg} width={500} height={320} preload="true" alt="project" />
+                    <Image src={props.src} className={styles.cardimg} width={540} height={360} preload="true" alt="project" />
                 </a>
             </div>
             <div className={styles.projectdetails}>

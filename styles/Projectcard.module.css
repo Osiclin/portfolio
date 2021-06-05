@@ -1,5 +1,5 @@
 .projectcard{
-    width: 400px;
+    width: 500px;
     border: 0px;
     display: flex;
     flex-direction: column;
@@ -40,15 +40,9 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 560px) {
     .projectcard{
-        width: 74%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .projectcard{
-        width: 80%;
+        width: 100%;
     }
 }
 
