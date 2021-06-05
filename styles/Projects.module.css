@@ -7,3 +7,9 @@
     justify-content: center;
     row-gap: 2rem;
 }
+
+@media screen and (max-width: 985px) {
+    #projectcontainer{
+        width: 100%;
+    }
+}
