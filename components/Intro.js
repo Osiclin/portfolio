@@ -8,7 +8,7 @@ export default function Intro() {
     
     useEffect(() => {
         $(para).slideDown(1500);
-        para.style.display = "flex";
+        para.style.display = "block";
     })
 
     return(
