@@ -54,10 +54,9 @@
     }
 
     #menu{
-        display: none;
         width: 100%;
         top: 0;
-        right: 0;
+        left: -600px;
         height: 100vh;
         font-size: 1rem;
         background-color: black;
@@ -94,5 +93,7 @@
     
     #ham{
         display: block;
+        font-size: 1.3rem;
+        
     }
 }

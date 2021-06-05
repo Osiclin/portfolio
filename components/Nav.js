@@ -1,28 +1,23 @@
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import styles from '../styles/Nav.module.css'
+import $ from 'jquery'
 
 export default function Nav() {
     const [hamburger, setHamburger] = useState('close')
 
     let menu = useRef(null);
-    let logo = useRef(null);
-    let ham = useRef(null);
 
     const openMenu = () => {
         if (window.innerWidth <= 600) {
-            menu.style.display = 'block';
-            ham.style.color = 'rgba(245, 245, 245, 0.541)';
-            logo.style.color = 'rgba(245, 245, 245, 0.541)';
+            $(menu).animate({left: '0px'});
             setHamburger('open')
         }
     }
 
     const closeMenu = () => {
         if (window.innerWidth <= 600) {
-            menu.style.display = 'none';
-            ham.style.color = 'white';
-            logo.style.color = 'white';
+            $(menu).animate({left: '-600px'});
             setHamburger('close')
         }
     }
@@ -31,7 +26,7 @@ export default function Nav() {
         <>
             <div id={styles.logo} >
                 <Link href="/">
-                    <a><p id={styles.logotext} ref={el => logo = el}>osita.</p></a>
+                    <a><p id={styles.logotext}>osita.</p></a>
                 </Link>
             </div>
 
@@ -48,8 +43,8 @@ export default function Nav() {
                 </li>
             </ul>
 
-            <div ref={el => ham = el}>
-               {hamburger == 'close' ? <p id={styles.ham} onClick={openMenu}>=</p> : <p id={styles.ham} onClick={closeMenu}>=</p>}
+            <div>
+               {hamburger == 'close' ? <p id={styles.ham} onClick={openMenu}>=</p> : <p id={styles.ham} onClick={closeMenu}>x</p>}
             </div>
         </>
     )
