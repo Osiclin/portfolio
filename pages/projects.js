@@ -17,6 +17,7 @@ export default function Projects() {
                         <PageTitle title="projects" subtitle="explore my project catalogue."/>
                     </div>
                     <div id={styling.projectcontainer}>
+                        <Projectcard src='/images/getdelivry.png' title="Getdelivry" details="Getdelivry is a webapp that helps you find and compare discounted shipping rates." href="https://getdelivry.com" />
                         <Projectcard src='/images/newsapp.png' title="News-app" details="This is a news app that gives you latest news around the world." href="https://ositaezeigbo-newsapp.vercel.app" />
                         <Projectcard src='/images/kraken.png' title="Dashboard" details="This is a dashboard UI layout." href="https://kraken-dashboard.vercel.app" />
                         <Projectcard src='/images/vasiti.png' title="Vasiti" details="This is a landing page i made with Next JS & React JS." href="https://vasiti-six.vercel.app" />

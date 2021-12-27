@@ -9,6 +9,7 @@
 .cardimg{
     object-fit: cover;
     filter: brightness(0.5);
+    border-radius: 10px;
 }
 
 .imgwrapper{
