@@ -15,8 +15,8 @@ export default function Intro() {
             <div id={styles.innerwrapper} ref={el => para = el}>
                 <div>
                     <p id={styles.intropara}>~ Hello there! &#128075;</p>
-                    <h2 id={styles.h2text}>I'm Osita Ezeigbo.<br/>Software Engineer</h2>
-                    <p className={styles.aboutdetails}>I am focused on the frontend development. I specialize in building websites and web applications.</p>
+                    <h2 id={styles.h2text}>I am Osita Ezeigbo</h2>
+                    <p className={styles.aboutdetails}>I am a SOFTWARE ENGINEER focused on FRONTEND DEVELOPMENT. <br/>I specialize in building websites, web applications and creating interactive experiences and functional interfaces using various web technologies.</p>
                 </div>
             </div>
         </div>
